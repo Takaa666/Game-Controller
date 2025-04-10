@@ -20,7 +20,13 @@ public class Enemy : MonoBehaviour
     // Metode untuk menghancurkan enemy
     void Die()
     {
-        Musuh1.SetActive(false); // Menghancurkan objek enemy
-        // Tambahkan efek visual atau suara di sini jika perlu
+        Musuh1.SetActive(false); 
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet"))
+        {
+            Die();
+        }
     }
 }
