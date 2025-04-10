@@ -1415,7 +1415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 325130361}
-  - component: {fileID: 325130360}
+  - component: {fileID: 325130362}
   m_Layer: 0
   m_Name: Inputsystem
   m_TagString: Untagged
@@ -1423,7 +1423,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &325130360
+--- !u!4 &325130361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325130359}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.831347, y: -4.5707026, z: -0.0026539848}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &325130362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1450,72 +1465,25 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1214632541}
-        m_TargetAssemblyTypeName: SpeedMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 00a11d3b-760b-43b8-94e9-ea11c5516521
-    m_ActionName: Playerinput/Forward[/XInputControllerWindows/leftStick/right]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1214632541}
-        m_TargetAssemblyTypeName: SpeedMovement, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 21eb8fd7-f7cf-4145-aafe-3ebdc645459e
-    m_ActionName: Playerinput/Backward[/XInputControllerWindows/leftStick/left]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1214632541}
-        m_TargetAssemblyTypeName: SpeedMovement, Assembly-CSharp
-        m_MethodName: OnJump
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: c7f88868-bc77-453b-84e5-2b70c8031fdb
-    m_ActionName: Playerinput/Jump[/XInputControllerWindows/buttonSouth]
+    m_ActionId: 3e0211eb-2f3c-4fa2-a94b-5bf225a72624
+    m_ActionName: PlayerOnGround/Move[/XInputControllerWindows/leftStick/left]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Playerinput
+  m_DefaultActionMap: PlayerOnGround
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!4 &325130361
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325130359}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.831347, y: -4.5707026, z: -0.0026539848}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &329577681
 GameObject:
   m_ObjectHideFlags: 0
@@ -8180,7 +8148,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1214632543}
   - component: {fileID: 1214632542}
-  - component: {fileID: 1214632541}
   - component: {fileID: 1214632540}
   - component: {fileID: 1214632539}
   - component: {fileID: 1214632546}
@@ -8264,29 +8231,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1214632541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214632538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f001755c5e8e3c4cb7ccde0f8f99c65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundCheckCollider: {fileID: 434085875}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  speed: 3
-  jumpPower: 175
-  anim: {fileID: 0}
-  damage: 100
-  coinManager: {fileID: 1411998454}
-  playButtonCount: 0
-  isGrounded: 0
 --- !u!212 &1214632542
 SpriteRenderer:
   m_ObjectHideFlags: 0
