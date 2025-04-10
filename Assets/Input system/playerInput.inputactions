@@ -1,69 +1,29 @@
 {
-    "name": "playerInput",
+    "name": "Playerinput",
     "maps": [
         {
-            "name": "Playerinput",
-            "id": "83cf030b-cfbe-493a-a608-105f1ba2418f",
+            "name": "PlayerOnGround",
+            "id": "5150a694-4488-49e3-ae77-04d22ff274f9",
             "actions": [
                 {
-                    "name": "Forward",
-                    "type": "Button",
-                    "id": "00a11d3b-760b-43b8-94e9-ea11c5516521",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Backward",
+                    "name": "Move",
                     "type": "Value",
-                    "id": "21eb8fd7-f7cf-4145-aafe-3ebdc645459e",
-                    "expectedControlType": "Axis",
+                    "id": "3e0211eb-2f3c-4fa2-a94b-5bf225a72624",
+                    "expectedControlType": "Stick",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "c7f88868-bc77-453b-84e5-2b70c8031fdb",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "77811667-2022-4835-91b7-0157afde0b44",
-                    "path": "<XInputController>/leftStick/right",
+                    "id": "9f2c50c1-0f58-43b6-a8e2-b242bd1efb97",
+                    "path": "<Gamepad>/leftStick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Forward",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "08a32fc2-0f80-4000-90d4-23029978c758",
-                    "path": "<XInputController>/leftStick/left",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Backward",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "597a597b-0158-45e4-9fee-1747157f1d49",
-                    "path": "<XInputController>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
