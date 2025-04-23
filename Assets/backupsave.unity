@@ -208,7 +208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 43851062}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Double (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 115848566}
   - component: {fileID: 115848567}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,6 +328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.19487141
@@ -391,7 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129683620}
   - component: {fileID: 129683621}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,6 +481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.19487141
@@ -541,6 +549,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -854,6 +866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21675551
@@ -927,7 +943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &202258088
 Transform:
   m_ObjectHideFlags: 0
@@ -982,6 +998,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.y
@@ -1045,7 +1065,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 229606491}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Triple (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1171,7 +1191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 298061273}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Rumput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1349,6 +1369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.22345325
@@ -1415,7 +1439,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 325130361}
-  - component: {fileID: 325130362}
   m_Layer: 0
   m_Name: Inputsystem
   m_TagString: Untagged
@@ -1438,52 +1461,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &325130362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325130359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 6ca7e6edc76199f438efd980167254fd, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 3e0211eb-2f3c-4fa2-a94b-5bf225a72624
-    m_ActionName: PlayerOnGround/Move[/XInputControllerWindows/leftStick/left]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: PlayerOnGround
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1 &329577681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1796,13 +1773,13 @@ GameObject:
   m_Component:
   - component: {fileID: 366859414}
   - component: {fileID: 366859415}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Layer-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &366859414
 Transform:
   m_ObjectHideFlags: 0
@@ -1855,7 +1832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 367892167}
   - component: {fileID: 367892168}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1944,7 +1921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378596041}
   - component: {fileID: 378596042}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2028,7 +2005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 379283355}
   - component: {fileID: 379283356}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2112,7 +2089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 382134242}
   - component: {fileID: 382134243}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2202,6 +2179,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2386,7 +2367,7 @@ GameObject:
   - component: {fileID: 442608003}
   - component: {fileID: 442608005}
   - component: {fileID: 442608004}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3171,6 +3152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.22447246
@@ -3422,6 +3407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.19487141
@@ -3491,6 +3480,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
@@ -3562,7 +3555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 517262296}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Single
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3724,7 +3717,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &550725886
 Transform:
   m_ObjectHideFlags: 0
@@ -4084,7 +4077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 634415154}
   - component: {fileID: 634415155}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4248,6 +4241,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4414,7 +4411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 732907207}
   - component: {fileID: 732907208}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: semak (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4498,7 +4495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 735498630}
   - component: {fileID: 735498629}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4584,6 +4581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21774417
@@ -4657,6 +4658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21675551
@@ -4726,6 +4731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21675551
@@ -4793,7 +4802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 761262976}
   - component: {fileID: 761262977}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tianglistrik
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4879,6 +4888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21675551
@@ -4946,7 +4959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 781899028}
   - component: {fileID: 781899029}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5035,7 +5048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795045190}
   - component: {fileID: 795045189}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumput2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5119,7 +5132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812258002}
   - component: {fileID: 812258003}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tianglistrik2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5365,6 +5378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21675551
@@ -5437,7 +5454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879562842}
   - component: {fileID: 879562843}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5522,13 +5539,13 @@ GameObject:
   - component: {fileID: 887468492}
   - component: {fileID: 887468491}
   - component: {fileID: 887468493}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Layer-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!156049354 &887468491
 Grid:
   m_ObjectHideFlags: 0
@@ -5655,9 +5672,9 @@ GameObject:
   - component: {fileID: 947429994}
   - component: {fileID: 947429993}
   - component: {fileID: 947429995}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Tilemap Wall_Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6874,7 +6891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 953499819}
   - component: {fileID: 953499820}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: semak (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6958,7 +6975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 961844955}
   - component: {fileID: 961844956}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7043,9 +7060,9 @@ GameObject:
   - component: {fileID: 1028239941}
   - component: {fileID: 1028239943}
   - component: {fileID: 1028239944}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Layer-6
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7101,7 +7118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030404508}
   - component: {fileID: 1030404509}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7185,7 +7202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1034571320}
   - component: {fileID: 1034571321}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7268,7 +7285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1036608964}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Double (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7303,6 +7320,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7364,6 +7385,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7504,18 +7529,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.011330247, y: 0.11141467}
+  m_Offset: {x: 0.046694756, y: -0.858701}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 10.8, y: 10.8}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.22829795, y: 1.2228293}
+  m_Size: {x: 3.3297634, y: 3.1630607}
   m_EdgeRadius: 0
 --- !u!50 &1102391881
 Rigidbody2D:
@@ -7576,8 +7601,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.041169047, y: 0.008044481}
-  m_Size: {x: 1.1202462, y: 1.1202462}
+  m_Offset: {x: -0.06849766, y: -1.0636854}
+  m_Size: {x: 2.4760914, y: 2.7053976}
   m_Direction: 0
 --- !u!95 &1102391883
 Animator:
@@ -7587,7 +7612,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102391877}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ef8ea2e2f03285245b062cf83f707b61, type: 2}
   m_CullingMode: 0
@@ -7695,7 +7720,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: -50821668, guid: 06d07e11ef3074a48803a0e8434a8f00, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fce70ae438c7cf24b898be11131b81c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7716,7 +7741,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 23.15, y: -4.82, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -7767,7 +7792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148537803}
   - component: {fileID: 1148537802}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7857,7 +7882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1151037043
 Transform:
   m_ObjectHideFlags: 0
@@ -7902,7 +7927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1160014259}
   - component: {fileID: 1160014260}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tianglistrik2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7988,6 +8013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.22447246
@@ -8064,7 +8093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211134858}
   - component: {fileID: 1211134859}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8152,6 +8181,7 @@ GameObject:
   - component: {fileID: 1214632539}
   - component: {fileID: 1214632546}
   - component: {fileID: 1214632547}
+  - component: {fileID: 1214632548}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -8272,7 +8302,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: 1449122884dbb974da93bce81a960c07, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5e3053be62f49e941abcf1009b78d71b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8292,8 +8322,8 @@ Transform:
   m_GameObject: {fileID: 1214632538}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.78, y: -4.42, z: 0}
-  m_LocalScale: {x: 0.1805, y: 0.1805, z: 0.1805}
+  m_LocalPosition: {x: -23.87, y: -4.24, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 434085875}
@@ -8332,8 +8362,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.32019022, y: -0.5376313}
-  m_Size: {x: 4.772834, y: 8.778318}
+  m_Offset: {x: -0.18319702, y: -0.3900993}
+  m_Size: {x: 2.6020126, y: 3.4671807}
   m_Direction: 0
 --- !u!114 &1214632547
 MonoBehaviour:
@@ -8348,6 +8378,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+--- !u!114 &1214632548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214632538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c25cdb75202ec49b9f5e3ff5faf3eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graphic: {fileID: 1214632542}
+  health: 100
+  attack: 5
+  canBeMoved: 1
+  moveSpeed: 2.5
+  jumpForce: 9
+  minGroundDistance: 1.5
 --- !u!4 &1222128307 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
@@ -8363,7 +8412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1228610944}
   - component: {fileID: 1228610945}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tianglistrik2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8446,7 +8495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1234405979}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Triple (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8480,7 +8529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1255153604}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Single (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8513,7 +8562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1257624249}
   - component: {fileID: 1257624250}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8596,7 +8645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1271383149}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Double (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8630,7 +8679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1302248306}
   - component: {fileID: 1302248307}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8714,7 +8763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1310447284}
   - component: {fileID: 1310447285}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8798,7 +8847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1347540471}
   - component: {fileID: 1347540472}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8882,7 +8931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1348539999}
   - component: {fileID: 1348540000}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8968,6 +9017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.189787
@@ -9028,6 +9081,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
@@ -9098,6 +9155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36.1
@@ -9158,6 +9219,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
@@ -9273,7 +9338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415017318}
   - component: {fileID: 1415017317}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumput2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9359,6 +9424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21774417
@@ -9435,7 +9504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1471474337}
   - component: {fileID: 1471474336}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: semak (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9671,6 +9740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.19487141
@@ -9734,7 +9807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561708279}
   - component: {fileID: 1561708280}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9872,7 +9945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1625827620
 Transform:
   m_ObjectHideFlags: 0
@@ -9914,7 +9987,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1625858342}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Triple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9949,7 +10022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661580386}
   - component: {fileID: 1661580385}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: semak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10035,6 +10108,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21675551
@@ -10102,7 +10179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719391203}
   - component: {fileID: 1719391204}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10188,6 +10265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
@@ -10247,7 +10328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1750382035}
   - component: {fileID: 1750382036}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tianglistrik2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10336,7 +10417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1772365437}
   - component: {fileID: 1772365436}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumput2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10420,7 +10501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796607573}
   - component: {fileID: 1796607574}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: semak (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10506,6 +10587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36
@@ -10565,7 +10650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1823385393}
   - component: {fileID: 1823385394}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10649,7 +10734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1873638127}
   - component: {fileID: 1873638128}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11351,7 +11436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1918840479}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Double (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11385,7 +11470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1950257630}
   - component: {fileID: 1950257631}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11476,6 +11561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: awan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.22345325
@@ -11543,7 +11632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1994833454}
   - component: {fileID: 1994833455}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tanaman1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11626,7 +11715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2003445353}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Single (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11659,7 +11748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2004110410}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Double (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11699,6 +11788,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalScale.y
@@ -11762,7 +11855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2041716397}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Triple (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11799,7 +11892,7 @@ GameObject:
   - component: {fileID: 2054647809}
   m_Layer: 1
   m_Name: Enviroment
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11850,6 +11943,10 @@ PrefabInstance:
     - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_Name
       value: awan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925150088367067680, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083541306589182647, guid: 12075df147b084f499e7f5960f434fe5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11910,7 +12007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2083664415}
   - component: {fileID: 2083664416}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rumah2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12110,7 +12207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2122513021}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Triple (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12144,7 +12241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2135100158}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Awan Double
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12178,7 +12275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143987051}
   - component: {fileID: 2143987052}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: tianglistrik
   m_TagString: Untagged
   m_Icon: {fileID: 0}
