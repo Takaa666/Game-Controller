@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
             isGrounded = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (isGrounded && Input.GetButtonDown("Jump"))
         {
             Jump();
         }
