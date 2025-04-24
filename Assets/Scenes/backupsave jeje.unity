@@ -1582,6 +1582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   Musuh1: {fileID: 0}
+  drop: []
 --- !u!61 &329577684
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2437,7 +2438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &442608003
 Transform:
   m_ObjectHideFlags: 0
@@ -4029,6 +4030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   Musuh1: {fileID: 0}
+  drop: []
 --- !u!61 &574483455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5732,7 +5734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!156049354 &887468491
 Grid:
   m_ObjectHideFlags: 0
@@ -7676,6 +7678,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   Musuh1: {fileID: 1102391877}
+  drop:
+  - {fileID: 6657772380512997194, guid: f48357c4ac0dfce469551445c94ee70e, type: 3}
 --- !u!61 &1102391880
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11361,6 +11365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   Musuh1: {fileID: 0}
+  drop: []
 --- !u!114 &1885938383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11428,6 +11433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   Musuh1: {fileID: 0}
+  drop: []
 --- !u!61 &1887450474
 BoxCollider2D:
   m_ObjectHideFlags: 0
